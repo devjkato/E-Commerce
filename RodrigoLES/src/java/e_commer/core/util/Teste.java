@@ -42,7 +42,7 @@ public class Teste {
 //      System.out.println(diferencaDias);
 //    }
 
-//        String letras = "ABCDEFGHIJKLMNOPQRSTUVYWXZ0123456789";
+        String letras = "ABCDEFGHIJKLMNOPQRSTUVYWXZ0123456789";
 //
 //        Random random = new Random();
 //
@@ -62,7 +62,7 @@ public class Teste {
 //        System.out.println(c.getTime());
 //        System.out.println("Data: " + sd.format(c.getTime()));
 
-/*        c.add(Calendar.DAY_OF_MONTH, 60);
+        c.add(Calendar.DAY_OF_MONTH, 60);
         System.out.println("Sessenta dias depois: " + sd.format(c.getTime()));
 
         c.add(Calendar.DAY_OF_MONTH, -1);
@@ -82,6 +82,5 @@ public class Teste {
         
         c.add(Calendar.YEAR, 1);
         System.out.println("Um ano depois: " + sd.format(c.getTime()));
-*/
     }
 }
